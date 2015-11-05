@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.developerworld.maven</groupId>
 		<artifactId>dw-maven-parent</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.3</version>
 	</parent>
 
 	<groupId>org.developerworld.deprecated</groupId>
@@ -66,11 +66,9 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.sun.jimi</groupId>
-			<artifactId>jimi</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${basedir}/lib/jimi-1.0.jar</systemPath>
+			<groupId>com.hynnet</groupId>
+			<artifactId>jimi-pro</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>net.sf.ehcache</groupId>
@@ -157,11 +155,9 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>proxool</groupId>
+			<groupId>org.developerworld.3rdparty.proxool</groupId>
 			<artifactId>proxool</artifactId>
 			<version>0.9.1</version>
-			<scope>system</scope>
-			<systemPath>${basedir}/lib/proxool-0.9.1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>c3p0</groupId>
