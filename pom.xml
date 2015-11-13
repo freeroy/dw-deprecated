@@ -11,7 +11,7 @@
 	<groupId>org.developerworld.deprecated</groupId>
 	<artifactId>dw-deprecated</artifactId>
 	<packaging>jar</packaging>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<name>dw-deprecated</name>
 	<description>dw项目中，已经不再维护、有替代实现、失效的所有类组件，均存放于该工程，以便保证平稳迁移（注！该项目不会以任意方式依赖DW现存项目，同时所有项目也应尽量不要依赖该项目下的程序）</description>
 
